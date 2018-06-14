@@ -1,0 +1,130 @@
+/* FOR BIG TABLETS To 1200px (Smaller than 1140px Of a Row) */
+
+@media only screen and (max-width: 1200px ){
+    
+   .header-info{
+    
+    width: 100%;
+    padding: 0 2%;
+    font-size: 80%;
+}
+    
+    .logo{
+
+        width: 20%;
+        height: auto;
+    }
+    
+    .main-nav{
+        font-size: 90%;
+        width: 80%;
+        text-align: right;
+    }
+    
+    
+    
+    .row{ padding: 0 2%; }
+
+    
+}
+
+/* FOR SMALL TABLETS  To BIG TABLETS 768px TO 1023px */
+
+@media only screen and (max-width: 1023px ){
+    
+    body{ font-size: 18px;}
+    section{ padding: 60px 0;}
+    
+    
+}
+
+/* FOR SMALL PHONES To SMALL TABLETS 480px TO 768px */
+
+@media only screen and (max-width: 767px ){
+    
+    body{font-size: 15px;}
+    section{padding: 30px 0}
+    .row{padding: 0 4%;}
+    
+    .col{width: 100%; margin: 0% 0 4% 0%;}
+    
+    .company{
+    background-color: #F4F5F7;
+    z-index: 10;
+}
+
+    .img-box{
+      text-align: center;
+    }
+
+    
+    .company img{
+        width: 35%;
+        
+    }
+    
+    .our-services{
+        text-align: center;
+    }
+    
+    .our-clients {
+        text-align: center;
+    }
+    
+    .our-clients img{
+        width: 60%;
+    }
+    
+    /* Mobile Navigation */
+    
+    .main-nav{display: none;}
+    
+    .mobile-nav-icon{
+        display: inline-block;
+    }
+    
+    .main-nav{
+        float: left;
+        margin-top: 35px;
+        margin-left: 25px;
+    }
+    
+    .main-nav li{
+        
+        display: block;
+    }
+    
+    .main-nav li a:link,.main-nav li a:visited{
+        display: block;
+        border: none;
+        padding: 10px 0;
+        font-size: 100%;
+    }
+    
+    .sticky .main-nav{
+        margin: 10px 0 0 0 ;
+
+    }
+    
+
+    .sticky .main-nav li a:link, .sticky .main-nav li a:visited{
+        padding: 10px 0;
+    }
+    
+    .mobile-nav-icon  {margin-top: 20px;}
+    .sticky .mobile-nav-icon i{color: #fff;
+    border: none;}
+    
+
+    
+    
+
+/* FOR SMALL PHONES 0 TO 480px */
+
+@media only screen and (max-width: 480px ){
+    
+    section{padding: 25px 0;}
+    .contact-form{width: 100%;}
+    
+    
+}
